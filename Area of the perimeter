@@ -1,0 +1,11 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    int diff=23,peri=206,area;
+	    int sumoflb=peri/2;//sum of length and breath value
+	    int dlength=sumoflb+diff;//double the length value
+	    int len=dlength/2;//value of length
+	    int breath=sumoflb-len;//value of breath
+		System.out.println("Area: "+len*breath);
+	}
+}
